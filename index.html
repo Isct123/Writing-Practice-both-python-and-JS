@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Writing Practice</title>
+</head>
+<body>
+    <div id="title_bar">
+        <h1 class="title">Writing Practice</h1>
+    </div>
+    <style>
+    #title_bar{
+        margin: 10px;
+        background-color: white;
+        padding: 10px;
+    }
+    
+    .title{
+        font-weight: bold;
+        text-transform: uppercase;
+        font-family: 'Oswald', sans-serif !important;
+    }
+    </style>
+    
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <div id="navigation_bar" class="topnav">
+        <a href="/Homepage/index.html"><i class="ri-home-4-line"></i></a>
+        <a href="about.html">Our Planning process</a>
+        <a href="/Bag_Packer/index.html">Backpacker</a>
+        <a href="/Class_Joiner_Website/index.html">Online Class Joiner</a>
+        <a href="/Timetable/index.html">Class Timetable</a>
+        <a href="/Writing_Practice/index.html">Writing Practice</a>
+        
+    </div>
+    <style>
+    .topnav {
+        overflow: hidden;
+        background-color: #333;
+        width: 100%;
+        border: none;
+    }
+    
+    .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none !important;
+        font-size: 17px;
+    }
+    
+    .topnav a:hover {
+        background-color: #ddd;
+        transition: 0.4s;
+        color: black;
+    }
+    
+    .topnav a.active {
+        background-color: #04AA6D;
+        color: white;
+    }
+    </style>
+    <div id="words_div">
+       <h2 id = "words"></h2> 
+    </div>
+    <div id="timer_div">
+        <label id="timer">0</label>
+    </div>
+    <div id="timer_controls">
+        <button id="start" class = "control">Start</button>
+        <button id="stop" class = "control">Stop</button>
+        <button id="reset" class = "control" onclick="location.reload()">Reset</button>  
+    </div>
+    
+    <script src="cookies.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</body>
+</html>
